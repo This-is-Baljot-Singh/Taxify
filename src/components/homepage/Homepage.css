@@ -1,0 +1,194 @@
+.homepage-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 80%;
+    border-radius: 1cm;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
+    color: black;
+    padding: 0.5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.logo-dot, .card-dot {
+    width: 30px;
+    height: 30px;
+    background-color: #3C53C6;
+    border-radius: 50%;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-link {
+    color: black;
+}
+
+.headline {
+    text-align: center;
+    color: black;
+    padding: 2% 0;
+}
+
+.highlight {
+    background-color: #3C53C6;
+    color: white;
+    padding: 0.1rem 1rem;
+    border-radius: 10px;
+}
+
+/* .arrow {
+    color: #3C53C6;
+    font-size: 2rem;
+    font-weight: bold;
+    transform: rotate('45deg')
+} */
+
+.phone {
+    position: absolute;
+    left: 38%;
+    margin-top: 20px;
+    width: 20rem;
+    height: 100%;
+    background-color: #fff;
+    border: 10px solid #000;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.phone-notch {
+    width: 30%;
+    height: 1rem;
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+    top: 3%;
+    left: 35%;
+}
+
+.phone-flash {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: gray;
+    position: relative;
+    border-radius: 50%;
+    top: 25%;
+    left: 85%;
+}
+  
+.card {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.history-card {
+    left: 25%;
+    top: 70%;
+    width: 20%;
+}
+
+.income-card {
+    right: 25%;
+    top: 55%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 0.5rem;
+}
+  
+.card-dot, .white-circle {
+    width: 20px;
+    height: 20px;
+}
+  
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+  
+.card-options label {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+}
+  
+.card-content p {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.manage-button {
+    background-color: #3C53C6;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin: 0 auto;
+} 
+
+.history-options {
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(207, 202, 202);
+    font-size: 0.9rem;
+}
+
+.history-options p {
+    width: 100%;
+    text-align: center;
+    color: rgb(106, 106, 106)
+}
+
+.history-options p:nth-child(1), .history-options p:nth-child(2) {
+    border-right: 1px solid rgb(106, 106, 106);
+}
+
+.history-radios {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0.5rem;
+    padding-top: 1rem;
+    width: 90%;
+}
+
+.white-circle {
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 50%;
+}
+
